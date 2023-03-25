@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right,lightgreen,lightblue);
+}
+.container{
+    background-color: rgba(255,255,255,.1);
+    padding: 20px 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,.3);
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    margin: 10px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 35px;
+}
+.quote{
+    font-weight: 600;
+    font-size: 30px;
+}
+.author{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.8);
+}
+.btn:hover{
+    background-color: rgba(255,255,255,.6);
+    box-shadow: 0 4px 4px rgba(0, 0, 0,.3);
+    cursor: pointer;
+}
